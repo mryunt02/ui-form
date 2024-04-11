@@ -1,0 +1,127 @@
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#title {
+  color: #f3f3f3;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+#description {
+  color: #f3f3f3;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: 200;
+  margin-top: 0;
+}
+.header {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+#survey-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  border: 1px solid;
+  background: rgba(27, 27, 50, 0.8);
+  border-radius: 1px;
+  align-items: baseline;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 20px 35px 40px 35px;
+}
+.labels {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 10px;
+}
+.labels > label,
+p {
+  color: #f3f3f3;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  margin-bottom: 5px;
+}
+.labels > input,
+select,
+option,
+textarea {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+  height: 30px;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+#submit {
+  width: 100%;
+}
+.container {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+select {
+  height: 33.6px;
+}
+.input-radio {
+  min-width: 20px;
+  margin-right: 10px;
+}
+.span {
+  color: #c6c2c2;
+  font-size: 12px;
+  margin-top: -10px;
+}
+.input-checkbox {
+  margin-right: 10px;
+  min-width: 19px;
+}
+#comments {
+  min-height: 120px;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: inherit;
+}
+#submit {
+  background-color: #39a061;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: inherit;
+}
